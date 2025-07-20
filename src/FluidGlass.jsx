@@ -267,8 +267,8 @@ function Images() {
 function Typography() {
   const DEVICE = {
     mobile: { fontSize: 0.2 },
-    tablet: { fontSize: 0.4 },
-    desktop: { fontSize: 0.7 },
+    tablet: { fontSize: 0.3 },
+    desktop: { fontSize: 0.5 },
   };
   const getDevice = () => {
     const w = window.innerWidth;
@@ -289,9 +289,9 @@ function Typography() {
   return (
     <Text
       position={[0, 0, 12]}
-      font="/inter-black.ttf"
+      font="/figtreeblack.ttf"
       fontSize={fontSize}
-      letterSpacing={-0.05}
+      letterSpacing={-0.01}
       outlineWidth={0}
       outlineBlur="20%"
       outlineColor="#000"
@@ -300,7 +300,7 @@ function Typography() {
       anchorX="center"
       anchorY="middle"
     >
-      React Bits
+      Piotr Płotast
     </Text>
   );
 }
